@@ -1,0 +1,26 @@
+{
+  "name": "ifelif",
+  "version": "1.0.0",
+  "description": "Chainable functions for all kind of conditions",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beerusar/ifelif.git"
+  },
+  "keywords": [
+    "if",
+    "else",
+    "elif",
+    "condition",
+    "react"
+  ],
+  "author": "Berken Eren Usar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beerusar/ifelif/issues"
+  },
+  "homepage": "https://github.com/beerusar/ifelif#readme"
+}
