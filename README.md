@@ -2,10 +2,11 @@
 
 Chainable functions for all kind of conditions? 🐤 Sounds cool!
 
-IfElif is a simple Javascript package 📦 that allows you to create conditional statements as chainable methods.
+IfElif is a very simple Javascript package 📦 that allows you to create conditional statements as chainable methods.
+Every IfElif chain returns the result of the first condition that is true. If none of the conditions are true, it returns null.
 It's basically the same as ternary operator (true ? 'yes' : 'no') but with better readability and `else if` support. 🎉
 
-I made this package, because I didn't like the way **React 🦋** handles conditional rendering as a **Vue.js ☘️** developer.
+I made this package, because I didn't like the way **React 🐬** handles conditional rendering as a **Vue.js ☘️** developer.
 React uses ternary operator for conditional rendering, while Vue.js uses `v-if`, `v-else-if`, and `v-else` directives.
 I wanted to use a similar approach in React, so I created IfElif. 
 
@@ -13,9 +14,15 @@ I wanted to use a similar approach in React, so I created IfElif.
 
 ## Installation
 
-You can install IfElif using npm using the following command:
+You can install IfElif using your favorite package manager.
 
-```npm install ifelif```
+```bash
+npm install ifelif
+```
+
+```bash
+yarn add ifelif
+```
 
 ## Usage
 
