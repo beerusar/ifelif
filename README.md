@@ -24,10 +24,10 @@ You can install IfElif using your favorite package manager.
 > pnpm add ifelif
 ```
 
-You can also use IfElif in the browser. Just add the following script tag to your HTML file.
+If you don't want to install IfElif, you can use it directly in your browser.
 
 ```html
-<script src="https://unpkg.com/ifelif"></script>
+<script src="https://unpkg.com/ifelif/index.min.js"></script>
 ```
 
 ## Usage
