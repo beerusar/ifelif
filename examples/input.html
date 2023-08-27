@@ -1,0 +1,22 @@
+<head>
+  <script src="https://unpkg.com/ifelif"></script>
+</head>
+
+<body>
+  <input type="text" id="input" placeholder="Type something...">
+  <p id="output"></p>
+  <script>
+    const input = document.getElementById("input");
+    const output = document.getElementById("output");
+    input.addEventListener('input', () => {
+      output.innerHTML =
+        _if(input.value === "hello").then(
+          "Hi there! 👋"
+        ).elif(input.value === "goodbye").then(
+          "Miss you already! 😢"
+        ).else(
+          "I don't understand... 😕"
+        );
+    });
+  </script>
+</body>

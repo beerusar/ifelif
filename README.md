@@ -17,11 +17,17 @@ I wanted to use a similar approach in React, so I created IfElif.
 You can install IfElif using your favorite package manager.
 
 ```bash
-npm install ifelif
+> npm install ifelif
+
+> yarn add ifelif
+
+> pnpm add ifelif
 ```
 
-```bash
-yarn add ifelif
+You can also use IfElif in the browser. Just add the following script tag to your HTML file.
+
+```html
+<script src="https://unpkg.com/ifelif"></script>
 ```
 
 ## Usage
@@ -176,6 +182,8 @@ const App = () => {
 ```
 
 IfElif approach is much more readable and easier to maintain, as you can see in the examples above. You can also use IfElif in every other Javascript project, not just React.
+
+More examples, including HTML example, can be found in the [examples](examples) folder.
 
 ## License
 

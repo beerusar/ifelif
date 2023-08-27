@@ -1,6 +1,6 @@
 {
   "name": "ifelif",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Chainable functions for all kind of conditions",
   "main": "index.js",
   "scripts": {
