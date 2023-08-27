@@ -12,7 +12,25 @@ I wanted to use a similar approach in React, so I created IfElif.
 
 > React developers, scroll down to the bottom of the page to see an example of IfElif usage in React. 
 
-## Installation
+## Why IfElif? 🤔
+
+- **Easy to use** - IfElif is very easy to use. You can chain as many conditions as you want and you can use functions or values as callbacks. The code is also very readable, which provides better maintainability for your projects.
+
+- **Lightweight** - IfElif is very lightweight. It's only 736 bytes (minified).
+
+- **Performance** - IfElif is very fast, and performs nearly as good as normal if-else statements. You can see the performance comparison below.
+ 
+  ```bash
+  normal  ~ 709.8368759155273 ms
+  ternary ~ 631.1364431381226 ms
+  ifelif  ~ 839.0895328521729 ms
+  iffy    ~ 1183.1396884918213 ms
+  ifx     ~ 1099.2623691558838 ms
+  jif     ~ 1163.1959772109985 ms
+  ```
+  Results above are from [this benchmark](https://runkit.com/beerusar/ifelif-performance-test) comparing IfElif to native if-else statements, ternary operator, and other similar packages([ifx](https://www.npmjs.com/package/ifx), [jif](https://www.npmjs.com/package/jif), [@pennah/iffy](https://www.npmjs.com/package/@pennah/iffy))
+
+## Installation 📦
 
 You can install IfElif using your favorite package manager.
 
@@ -30,7 +48,7 @@ If you don't want to install IfElif, you can use it directly in your browser.
 <script src="https://unpkg.com/ifelif/index.min.js"></script>
 ```
 
-## Usage
+## Usage 🚀
 
 ```javascript
 const { _if } = require('ifelif');
@@ -185,6 +203,6 @@ IfElif approach is much more readable and easier to maintain, as you can see in 
 
 More examples, including HTML example, can be found in the [examples](examples) folder.
 
-## License
+## License 📜
 
 IfElif is licensed under the MIT license. See [LICENSE](LICENSE) for more information.
